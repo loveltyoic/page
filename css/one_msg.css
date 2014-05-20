@@ -79,3 +79,11 @@ body {
 .filter div {
   margin-bottom: 15px;
 }
+
+.dropdown {
+  border: 1px solid #007099;
+  background-color: #eee;
+}
+.dropdown > .caret{
+  color: #007099;
+}
