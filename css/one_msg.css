@@ -1,0 +1,81 @@
+body {
+  font-family: 'Arial';
+}
+.panel {
+  border: none;
+  border-bottom: #007099 3px solid;
+  border-radius: 0;
+  margin-bottom: 80px;
+}
+.panel .panel-heading {
+  background-color: #007099;
+  color: white; 
+  font-size: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.panel .row {
+  margin: 0;
+  border-top: 1px solid #88847f;
+}
+.show-detail {
+  color: #007099;
+  font-size: 12px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: -17px;
+  right: -9px;
+}
+.items {
+  position: relative;
+  height: 150px;
+  padding: 20px 10px;
+}
+.items.active {
+  background-color: #f3f3f3;
+}
+.col {
+  height: 100%;
+}
+.name {
+  font-size: 30px;
+  color: #575048;
+}
+.name .quantity {
+  color: #88847f;
+  font-size: 0.8em;
+}
+.status {
+  color: #88847f;
+}
+.control {
+  color: #88847f;
+}
+.alert-msg {
+  background-color: #cfe1e7;
+  color: #005777;
+  padding: 10px 30px;
+  margin: 30px;
+}
+.did-you-know {
+  color: #cb770a;
+  border-top: 3px #e69122 solid;
+  margin-top: 15px;
+  font-weight: bolder;
+  padding: 10px;
+}
+.learn-more {
+  background-color: #fdf7ee;
+  padding: 15px;
+}
+.learn-more.row {
+  margin: 15px 0;
+}
+.filter {
+  color: #88847f;
+  padding: 15px;
+  font-size: 20px;
+}
+.filter div {
+  margin-bottom: 15px;
+}
