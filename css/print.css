@@ -1,0 +1,26 @@
+.list-head{
+	background-color: white;
+	border: 2px solid #007099;
+	color: #007099;
+}
+
+.list-foot {
+	background-color: #eee;
+	border-bottom: 3px solid #007099;
+}
+
+.list-group-item:first-child {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.no-margin-top {
+	margin-top: 0px;
+}
+.no-margin {
+	margin:0px;
+}
+.list-body {
+	border-right-color: white;
+    border-left-color: white;
+}
